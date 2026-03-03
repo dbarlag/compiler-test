@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-03T09:08:02.815Z",
+  "generatedAt": "2026-03-03T12:24:28.896Z",
   "compiler": "figma-mcp-compiler",
   "files": [
     ".compiler-manifest.json",
+    ".compiler-overrides.json",
     ".github/scripts/ai-review.mjs",
     ".github/scripts/ds-lint.mjs",
     ".github/workflows/ai-review.yml",
