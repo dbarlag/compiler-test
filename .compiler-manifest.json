@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-03-03T09:08:02.815Z",
+  "compiler": "figma-mcp-compiler",
+  "files": [
+    ".compiler-manifest.json",
+    ".github/scripts/ai-review.mjs",
+    ".github/scripts/ds-lint.mjs",
+    ".github/workflows/ai-review.yml",
+    ".github/workflows/build.yml",
+    ".github/workflows/ds-lint.yml",
+    ".gitignore",
+    "README.md",
+    "next.config.mjs",
+    "package.json",
+    "src/app/globals.css",
+    "src/app/layout.jsx",
+    "src/app/page.jsx",
+    "src/components/FigmaComponent.jsx",
+    "src/components/FigmaComponent.module.css"
+  ]
+}
