@@ -12,20 +12,12 @@ export default function FigmaComponent() {
   ];
 
   const [items2, setItems2] = useState([]);
-  const [campaign, setCampaign] = useState(null);
 
   useEffect(() => {
     fetch('/api/stats')
       .then((res) => res.json())
       .then((data) => setItems2(data.stats))
       .catch((err) => console.error('Failed to fetch stats:', err));
-
-    fetch('/api/campaign')
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.campaign?.active) setCampaign(data.campaign);
-      })
-      .catch((err) => console.error('Failed to fetch campaign:', err));
   }, []);
 
   return (
@@ -33,17 +25,6 @@ export default function FigmaComponent() {
       <div className="wrapper" style={{ width: "100%", alignSelf: "stretch" }}>
         <Header data-color="primary" extensionColor="tinted" showHeaderExtension showThemeToggle showModeToggle showLanguageSwitch showMenuButton showCta ctaLabel="Støtt oss" />
       </div>
-      {campaign && (
-        <div style={{ width: "100%", backgroundColor: campaign.backgroundColor, color: campaign.textColor, display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", gap: "24px", padding: "16px 32px", boxSizing: "border-box", flexWrap: "wrap" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "4px", textAlign: "center" }}>
-            <strong style={{ fontSize: "18px", letterSpacing: "0.5px" }}>{campaign.title}</strong>
-            <span style={{ fontSize: "14px", opacity: 0.9 }}>{campaign.message}</span>
-          </div>
-          <a href={campaign.ctaHref} style={{ backgroundColor: campaign.textColor, color: campaign.backgroundColor, padding: "10px 24px", borderRadius: "6px", fontWeight: 700, fontSize: "14px", textDecoration: "none", whiteSpace: "nowrap" }}>
-            {campaign.ctaLabel}
-          </a>
-        </div>
-      )}
       <section data-figma-id="646:22899" className="hero" style={{ width: "100%", height: "auto", alignSelf: "stretch", display: "flex", flexDirection: "row", gap: "var(--ds-size-26)", justifyContent: "center", alignItems: "center", flexWrap: "wrap", boxSizing: "border-box", paddingLeft: "var(--ds-size-10)", paddingRight: "var(--ds-size-10)", paddingTop: "var(--ds-size-15)", overflow: "hidden", backgroundImage: "url(\"https://s3-alpha-sig.figma.com/img/a26e/b3b0/b66b32ee0293cca8d5d7bf926060588d?Expires=1773619200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=p46YCvWc8H4qHs-2xMxx3qIspcxAOv~YJk3YCjQaJIgG68kRGap27549SHKpz-ImbYY7w0IB51gE3RN3xWlL1Y0jqmEjthehOwvSw67ylBXHhAJOMo2VrEOiBcECq6r7DehEYP3gb9qzDStrPlz7P29sUTXMbIP07y6CAaFZAw9GXTTd7mNFwvi1Mgr2E3Z8yR0LuxSYgrq-OeVsQMzuX5RaMAZ2uXrv3P5m-s3UuAOywQlFHQLzY5nbzT1V3bQTQLd29s~42BFtAmvbll-QPHDSBfhzgJlFEjcH9UcDQk0zMNTH0FetBn-LL2x9IXpf6KfH~miXAEC3PO5IJe54iw__\")", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="wrapper" style={{ width: "auto" }}>
           <Donor amounts={[{"value":220,"label":"220 kr"},{"value":345,"label":"345 kr"},{"value":660,"label":"660 kr"}]} defaultAmount={345} oneTimeLabel="En gang" monthlyLabel="Hver måned" customAmountPlaceholder="Valgfritt beløp" amountLabel="Velg ønsket beløp:" impactMessage="En gave på {amount} bidrar til lorem ipsum dolor sit amet" vippsButtonLabel="Gi med" avtalegiroLabel="Gi med Kort" avtalegiroHref="#" currencySuffix="kr" data-color="primary" showVippsButton showAvtalegiroLink showImpactMessage />
