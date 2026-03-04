@@ -1,24 +1,29 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Button, Card, CardBlock, CrossCorner, Donor, Footer, Header, Heading, Paragraph } from 'rk-designsystem';
+import React, { useState, useEffect } from 'react';
 import styles from './FigmaComponent.module.css';
 
 export default function FigmaComponent() {
+  const [items2, setItems2] = useState([]);
+  useEffect(() => {
+fetch('/api/stats')
+.then((res) => res.json())
+.then((data) => setItems2(data.stats))
+.catch((err) => console.error('Failed to fetch stats:', err));
+}, []);
   const items1 = [
     {"text1":"Gi tid","text2":"Call out a feature, benefit, or value of your site that can stand on its own.","image1":"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7dea83cb-16fb-469a-abe8-7cb7abba99cb"},
     {"text1":"Gi penger","text2":"Call out a feature, benefit, or value of your site that can stand on its own.","image1":"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ce164b3a-6e14-4f45-859f-9fb5d7762831"},
     {"text1":"Gi stemmen din","text2":"Call out a feature, benefit, or value of your site that can stand on its own.","image1":"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7789304d-faa9-42ee-bde1-6c3b4e5b9e52"}
   ];
-
-  const [items2, setItems2] = useState([]);
-
-  useEffect(() => {
-    fetch('/api/stats')
-      .then((res) => res.json())
-      .then((data) => setItems2(data.stats))
-      .catch((err) => console.error('Failed to fetch stats:', err));
-  }, []);
+  const items2 = [
+    {"text1":"2.7M+","text2":"I donasjer","image1":"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d7d95d19-57f7-4006-a981-7cd9c7058b0f"},
+    {"text1":"40 000+","text2":"Frivillige","image1":"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3d6c7972-dc09-4cae-b623-666f5ef1090f"},
+    {"text1":"18 ","text2":"Distrikter","image1":"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4d56a65d-ef4c-48ee-ae07-4b1a571e5451"},
+    {"text1":"100","text2":"Lokalforeninger","image1":"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/40fb6298-0369-4905-ae43-85a003bea2d3"}
+  ];
 
   return (
     <div data-figma-id="316:21605" className="redcrossnohome" style={{ width: "100%", maxWidth: "1440px", margin: "0 auto", height: "auto", display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "var(--ds-color-primary-color-red-background-tinted)", overflow: "hidden" }}>
