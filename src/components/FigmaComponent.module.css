@@ -83,6 +83,7 @@
 }
 
 .dsWrapper8 {
+  width: 100%;
   min-width: 350px;
 }
 
@@ -121,7 +122,11 @@
   justify-content: flex-end;
 }
 
-.AspectRatioSpacer12 {
+.dsWrapper12 {
+  width: 100%;
+}
+
+.AspectRatioSpacer13 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -136,14 +141,15 @@
   overflow: hidden;
 }
 
-.dsWrapper13 {
+.dsWrapper14 {
+  width: 100%;
   height: 100%;
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
 }
 
-.dsStyle14 {
+.dsStyle15 {
   border: none;
   box-shadow: none;
   outline: none;
@@ -161,13 +167,13 @@
   border-radius: 8px;
 }
 
-.dsWrapper15 {
+.dsWrapper16 {
   width: 365px;
   max-width: 100%;
   min-width: 300px;
 }
 
-.FeatureCards116 {
+.FeatureCards117 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -180,13 +186,13 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.dsWrapper17 {
+.dsWrapper18 {
   width: 100%;
   display: flex;
   justify-content: flex-start;
 }
 
-.Section3Sttte18 {
+.Section3Sttte19 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -201,7 +207,7 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.SackKroner19 {
+.SackKroner20 {
   width: 72px;
   max-width: 100%;
   height: 72px;
@@ -213,7 +219,7 @@
   overflow: hidden;
 }
 
-.Heading20 {
+.Heading21 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -227,7 +233,7 @@
   margin: 0px;
 }
 
-.Heading21 {
+.Heading22 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -241,7 +247,7 @@
   margin: 0px;
 }
 
-.x22 {
+.x23 {
   width: auto;
   height: auto;
   display: flex;
@@ -251,7 +257,7 @@
   align-items: center;
 }
 
-.StatsIconNumber23 {
+.StatsIconNumber24 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -263,7 +269,7 @@
   flex-wrap: wrap;
 }
 
-.Heading24 {
+.Heading25 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -277,7 +283,7 @@
   margin: 0px;
 }
 
-.Line125 {
+.Line126 {
   width: 0px;
   max-width: 100%;
   height: 84px;
@@ -288,7 +294,7 @@
   overflow: hidden;
 }
 
-.Heading26 {
+.Heading27 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -303,7 +309,7 @@
   margin: 0px;
 }
 
-.texts27 {
+.texts28 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -316,7 +322,7 @@
   flex-wrap: wrap;
 }
 
-.Section4Stats28 {
+.Section4Stats29 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -333,7 +339,7 @@
   background-color: var(--ds-color-neutral-background-tinted);
 }
 
-.Text29 {
+.Text30 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -343,7 +349,7 @@
   align-items: center;
 }
 
-.Content30 {
+.Content31 {
   width: 100%;
   height: auto;
   flex-grow: 1;
@@ -356,7 +362,7 @@
   justify-content: center;
 }
 
-.Image31 {
+.Image32 {
   width: 628px;
   max-width: 100%;
   height: 504px;
@@ -372,7 +378,7 @@
   flex-shrink: 1;
 }
 
-.Row132 {
+.Row133 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -389,7 +395,7 @@
   padding-bottom: var(--ds-size-10);
 }
 
-.Image33 {
+.Image34 {
   width: 628px;
   max-width: 100%;
   height: auto;
@@ -405,7 +411,7 @@
   flex-shrink: 1;
 }
 
-.Row234 {
+.Row235 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -422,7 +428,7 @@
   padding-bottom: var(--ds-size-30);
 }
 
-.Section5Textphoto35 {
+.Section5Textphoto36 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -434,7 +440,7 @@
   border-radius: var(--ds-border-radius-xl);
 }
 
-.redcrossnohome36 {
+.redcrossnohome37 {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
