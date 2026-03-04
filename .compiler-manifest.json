@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-04T13:42:39.920Z",
+  "generatedAt": "2026-03-04T13:48:05.586Z",
   "compiler": "figma-mcp-compiler",
   "files": [
     ".compiler-manifest.json",
@@ -16,7 +16,6 @@
     "src/app/globals.css",
     "src/app/layout.jsx",
     "src/app/page.jsx",
-    "src/components/FigmaComponent.jsx",
-    "src/components/FigmaComponent.module.css"
+    "src/components/FigmaComponent.jsx"
   ]
 }
