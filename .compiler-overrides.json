@@ -2,9 +2,10 @@
   "components": {
     "FigmaComponent": {
       "componentCode": {
-        "imports": "import React from 'react';\nimport React, { useState, useEffect } from 'react';\nimport styles from './FigmaComponent.module.css';",
+        "imports": "import React, { useState, useEffect } from 'react';\nimport styles from './FigmaComponent.module.css';",
         "hooks": "const [items2, setItems2] = useState([]);",
-        "effects": "useEffect(() => {\nfetch('/api/stats')\n.then((res) => res.json())\n.then((data) => setItems2(data.stats))\n.catch((err) => console.error('Failed to fetch stats:', err));\n}, []);"
+        "effects": "useEffect(() => {\nfetch('/api/stats')\n.then((res) => res.json())\n.then((data) => setItems2(data.stats))\n.catch((err) => console.error('Failed to fetch stats:', err));\n}, []);",
+        "helpers": "const items1 = [\nconst items2 = ["
       }
     }
   }

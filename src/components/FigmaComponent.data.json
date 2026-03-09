@@ -1,0 +1,41 @@
+{
+  "repeatItems1": [
+    {
+      "text1": "Gi tid",
+      "text2": "Call out a feature, benefit, or value of your site that can stand on its own.",
+      "image1": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ba7efd57-f207-4f01-96a5-d42785dfa6c4"
+    },
+    {
+      "text1": "Gi penger",
+      "text2": "Call out a feature, benefit, or value of your site that can stand on its own.",
+      "image1": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6ddddab0-993b-45ad-a257-147d74f22ded"
+    },
+    {
+      "text1": "Gi stemmen din",
+      "text2": "Call out a feature, benefit, or value of your site that can stand on its own.",
+      "image1": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/bd18d170-18ec-46b7-89a7-d4370c4371da"
+    }
+  ],
+  "repeatItems2": [
+    {
+      "text1": "2.7M+",
+      "text2": "I donasjer",
+      "image1": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a29bacf0-2ee1-4261-8fcb-edc07e5756d9"
+    },
+    {
+      "text1": "40 000+",
+      "text2": "Frivillige",
+      "image1": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/eb132e91-504e-4309-84ff-c880bc8b966a"
+    },
+    {
+      "text1": "18 ",
+      "text2": "Distrikter",
+      "image1": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6ac198d6-3070-4bbd-a91c-98ca87f075ce"
+    },
+    {
+      "text1": "100",
+      "text2": "Lokalforeninger",
+      "image1": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a781cf19-5a67-4a64-9544-aa0521c488f4"
+    }
+  ]
+}
