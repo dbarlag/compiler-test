@@ -7,6 +7,10 @@ export default function FigmaComponent() {
   const repeatItems1 = repeatData.repeatItems1;
   const repeatItems2 = repeatData.repeatItems2;
 
+  function showHelloWorld() {
+    alert('Hello World!');
+  }
+
   return (
     <div data-figma-id="316:21605" data-figma-name="redcross.no/home" className="redcrossnohome" style={{ width: "100%", maxWidth: "1440px", margin: "0 auto", height: "auto", display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "var(--ds-color-primary-color-red-background-tinted)", overflow: "hidden" }}>
       <div className="wrapper" style={{ width: "100%", alignSelf: "stretch" }}>
@@ -30,7 +34,7 @@ export default function FigmaComponent() {
           <Paragraph data-size="md" data-figma-id="316:21654" data-figma-name="Body">Støtt vanskeligstilte barn i Vestfold med en donasjon. Hjelp oss å gi dem en lysere fremtid, full av muligheter og glede. Din gave, uansett størrelse, utgjør en stor forskjell. Sammen kan vi skape varige positive endringer i deres liv og lokalsamfunn. Bli med oss i dag og gi håp til de som trenger det mest.</Paragraph>
         </div>
         <div data-figma-id="316:21655" data-figma-name="Buttons" className="buttons" style={{ width: "100%", height: "auto", alignSelf: "stretch", display: "flex", flexDirection: "row", gap: "var(--ds-size-4)", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
-          <Button variant="primary" data-color="primary" data-figma-id="316:21656" data-figma-name="Button">Call to action</Button>
+          <Button variant="primary" data-color="primary" data-figma-id="316:21656" data-figma-name="Button" onClick={Hello World}>Call to action</Button>
           <Button variant="secondary" data-color="primary" data-figma-id="316:21657" data-figma-name="Button">Secondary</Button>
         </div>
       </section>
