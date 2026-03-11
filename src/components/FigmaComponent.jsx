@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { Button, Card, CardBlock, CrossCorner, Donor, Footer, Header, Heading, Paragraph } from 'rk-designsystem';
 import styles from './FigmaComponent.module.css';
 import repeatData from './FigmaComponent.data.json';
@@ -7,6 +8,20 @@ import repeatData from './FigmaComponent.data.json';
 export default function FigmaComponent() {
   const repeatItems1 = repeatData.repeatItems1;
   const repeatItems2 = repeatData.repeatItems2;
+
+  const [titleData, setTitleData] = useState(null);
+  const [titleLoading, setTitleLoading] = useState(true);
+  const [titleError, setTitleError] = useState(null);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/api/data/news')
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(data => { setTitleData(data); setTitleLoading(false); })
+      .catch(err => { setTitleError(err.message); setTitleLoading(false); });
+  }, []);
+
+  if (titleError) return <div style={{ padding: '1rem', color: '#dc2626' }}>Failed to load data: {titleError}</div>;
+  if (titleLoading) return <div style={{ padding: '1rem' }}>Loading...</div>;
 
   function showHelloWorld() {
     alert('Hello World!');
@@ -29,7 +44,7 @@ export default function FigmaComponent() {
       </section>
       <section data-figma-id="316:21652" data-figma-name="Section2: Call to action" className={styles.Section2CallToAction10}>
         <div className={styles.dsWrapper8}>
-          <Heading data-size="xl" level={1} data-figma-id="316:21653" data-figma-name="Heading">Du kan hjelpe lorem ipsum</Heading>
+          <Heading data-size="xl" level={1} data-figma-id="316:21653" data-figma-name="Heading">{titleData?.0?.headline ?? ''}</Heading>
         </div>
         <div className={styles.dsWrapper8}>
           <Paragraph data-size="md" data-figma-id="316:21654" data-figma-name="Body">Støtt vanskeligstilte barn i Vestfold med en donasjon. Hjelp oss å gi dem en lysere fremtid, full av muligheter og glede. Din gave, uansett størrelse, utgjør en stor forskjell. Sammen kan vi skape varige positive endringer i deres liv og lokalsamfunn. Bli med oss i dag og gi håp til de som trenger det mest.</Paragraph>
