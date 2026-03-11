@@ -10,22 +10,23 @@ export default function FigmaComponent() {
   const repeatItems2 = repeatData.repeatItems2;
 
   const [titleData, setTitleData] = useState(null);
-  const [titleLoading, setTitleLoading] = useState(true);
-  const [titleError, setTitleError] = useState(null);
 
   useEffect(() => {
     fetch('http://localhost:3000/api/data/news')
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-      .then(data => { setTitleData(data); setTitleLoading(false); })
-      .catch(err => { setTitleError(err.message); setTitleLoading(false); });
+      .then(data => setTitleData(data))
+      .catch(() => {});
   }, []);
-
-  if (titleError) return <div style={{ padding: '1rem', color: '#dc2626' }}>Failed to load data: {titleError}</div>;
-  if (titleLoading) return <div style={{ padding: '1rem' }}>Loading...</div>;
 
   function showHelloWorld() {
     alert('Hello World!');
   }
+
+  const [titleLoading, setTitleLoading] = useState(true);
+  const [titleError, setTitleError] = useState(null);
+
+  if (titleError) return <div style={{ padding: '1rem', color: '#dc2626' }}>Failed to load data: {titleError}</div>;
+  if (titleLoading) return <div style={{ padding: '1rem' }}>Loading...</div>;
 
   return (
     <div data-figma-id="316:21605" data-figma-name="redcross.no/home" className={styles.redcrossnohome37}>
