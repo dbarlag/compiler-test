@@ -128,18 +128,34 @@
   background-color: var(--ds-color-info-surface-tinted);
 }
 
-.dsWrapper13 {
+.Image13 {
+  width: 628px;
+  max-width: 100%;
+  height: 504px;
+  min-width: 350px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--ds-border-radius-xl);
+  overflow: hidden;
+  object-fit: cover;
+  aspect-ratio: 1.2460;
+  flex-shrink: 1;
+}
+
+.dsWrapper14 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
-.dsWrapper14 {
+.dsWrapper15 {
   width: 100%;
   text-align: left;
 }
 
-.AspectRatioSpacer15 {
+.AspectRatioSpacer16 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -154,7 +170,7 @@
   overflow: hidden;
 }
 
-.dsWrapper16 {
+.dsWrapper17 {
   width: 100%;
   height: 100%;
   flex-grow: 1;
@@ -163,12 +179,12 @@
   text-align: center;
 }
 
-.dsWrapper17 {
+.dsWrapper18 {
   width: 100%;
   text-align: center;
 }
 
-.dsStyle18 {
+.dsStyle19 {
   border: none;
   box-shadow: none;
   outline: none;
@@ -186,13 +202,13 @@
   border-radius: 8px;
 }
 
-.dsWrapper19 {
+.dsWrapper20 {
   width: 365px;
   max-width: 100%;
   min-width: 300px;
 }
 
-.FeatureCards120 {
+.FeatureCards121 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -205,13 +221,13 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.dsWrapper21 {
+.dsWrapper22 {
   width: 100%;
   display: flex;
   justify-content: flex-start;
 }
 
-.Section3Sttte22 {
+.Section3Sttte23 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -226,7 +242,7 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.SackKroner23 {
+.SackKroner24 {
   width: 72px;
   max-width: 100%;
   height: 72px;
@@ -238,7 +254,7 @@
   overflow: hidden;
 }
 
-.Heading24 {
+.Heading25 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -252,7 +268,7 @@
   margin: 0px;
 }
 
-.Heading25 {
+.Heading26 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -266,7 +282,7 @@
   margin: 0px;
 }
 
-.x26 {
+.x27 {
   width: auto;
   height: auto;
   display: flex;
@@ -276,7 +292,7 @@
   align-items: center;
 }
 
-.StatsIconNumber27 {
+.StatsIconNumber28 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -288,7 +304,7 @@
   flex-wrap: wrap;
 }
 
-.Heading28 {
+.Heading29 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -302,7 +318,7 @@
   margin: 0px;
 }
 
-.Line129 {
+.Line130 {
   width: 0px;
   max-width: 100%;
   height: 84px;
@@ -313,7 +329,7 @@
   overflow: hidden;
 }
 
-.Heading30 {
+.Heading31 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -328,7 +344,7 @@
   margin: 0px;
 }
 
-.texts31 {
+.texts32 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -341,7 +357,7 @@
   flex-wrap: wrap;
 }
 
-.Section4Stats32 {
+.Section4Stats33 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -358,7 +374,7 @@
   background-color: var(--ds-color-neutral-background-tinted);
 }
 
-.Text33 {
+.Text34 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -368,7 +384,7 @@
   align-items: center;
 }
 
-.Content34 {
+.Content35 {
   width: 100%;
   height: auto;
   flex-grow: 1;
@@ -379,22 +395,6 @@
   flex-direction: column;
   gap: var(--ds-size-12);
   justify-content: center;
-}
-
-.Image35 {
-  width: 628px;
-  max-width: 100%;
-  height: 504px;
-  min-width: 350px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: var(--ds-border-radius-xl);
-  overflow: hidden;
-  object-fit: cover;
-  aspect-ratio: 1.2460;
-  flex-shrink: 1;
 }
 
 .Row136 {
