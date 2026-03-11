@@ -94,7 +94,12 @@
   text-align: left;
 }
 
-.Buttons10 {
+.dsWrapper10 {
+  height: 48px;
+  width: fit-content;
+}
+
+.Buttons11 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -106,7 +111,7 @@
   flex-wrap: wrap;
 }
 
-.Section2CallToAction11 {
+.Section2CallToAction12 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -123,18 +128,18 @@
   background-color: var(--ds-color-info-surface-tinted);
 }
 
-.dsWrapper12 {
+.dsWrapper13 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
-.dsWrapper13 {
+.dsWrapper14 {
   width: 100%;
   text-align: left;
 }
 
-.AspectRatioSpacer14 {
+.AspectRatioSpacer15 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -149,7 +154,7 @@
   overflow: hidden;
 }
 
-.dsWrapper15 {
+.dsWrapper16 {
   width: 100%;
   height: 100%;
   flex-grow: 1;
@@ -158,12 +163,12 @@
   text-align: center;
 }
 
-.dsWrapper16 {
+.dsWrapper17 {
   width: 100%;
   text-align: center;
 }
 
-.dsStyle17 {
+.dsStyle18 {
   border: none;
   box-shadow: none;
   outline: none;
@@ -181,13 +186,13 @@
   border-radius: 8px;
 }
 
-.dsWrapper18 {
+.dsWrapper19 {
   width: 365px;
   max-width: 100%;
   min-width: 300px;
 }
 
-.FeatureCards119 {
+.FeatureCards120 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -200,13 +205,13 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.dsWrapper20 {
+.dsWrapper21 {
   width: 100%;
   display: flex;
   justify-content: flex-start;
 }
 
-.Section3Sttte21 {
+.Section3Sttte22 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -221,7 +226,7 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.SackKroner22 {
+.SackKroner23 {
   width: 72px;
   max-width: 100%;
   height: 72px;
@@ -233,7 +238,7 @@
   overflow: hidden;
 }
 
-.Heading23 {
+.Heading24 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -247,7 +252,7 @@
   margin: 0px;
 }
 
-.Heading24 {
+.Heading25 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -261,7 +266,7 @@
   margin: 0px;
 }
 
-.x25 {
+.x26 {
   width: auto;
   height: auto;
   display: flex;
@@ -271,7 +276,7 @@
   align-items: center;
 }
 
-.StatsIconNumber26 {
+.StatsIconNumber27 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -283,7 +288,7 @@
   flex-wrap: wrap;
 }
 
-.Heading27 {
+.Heading28 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -297,7 +302,7 @@
   margin: 0px;
 }
 
-.Line128 {
+.Line129 {
   width: 0px;
   max-width: 100%;
   height: 84px;
@@ -308,7 +313,7 @@
   overflow: hidden;
 }
 
-.Heading29 {
+.Heading30 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -323,7 +328,7 @@
   margin: 0px;
 }
 
-.texts30 {
+.texts31 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -336,7 +341,7 @@
   flex-wrap: wrap;
 }
 
-.Section4Stats31 {
+.Section4Stats32 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -353,7 +358,7 @@
   background-color: var(--ds-color-neutral-background-tinted);
 }
 
-.Text32 {
+.Text33 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -363,7 +368,7 @@
   align-items: center;
 }
 
-.Content33 {
+.Content34 {
   width: 100%;
   height: auto;
   flex-grow: 1;
@@ -376,7 +381,7 @@
   justify-content: center;
 }
 
-.Image34 {
+.Image35 {
   width: 628px;
   max-width: 100%;
   height: 504px;
@@ -392,7 +397,7 @@
   flex-shrink: 1;
 }
 
-.Row135 {
+.Row136 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -409,7 +414,7 @@
   padding-bottom: var(--ds-size-10);
 }
 
-.Image36 {
+.Image37 {
   width: 628px;
   max-width: 100%;
   height: auto;
@@ -425,7 +430,7 @@
   flex-shrink: 1;
 }
 
-.Row237 {
+.Row238 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -442,7 +447,7 @@
   padding-bottom: var(--ds-size-30);
 }
 
-.Section5Textphoto38 {
+.Section5Textphoto39 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -454,7 +459,7 @@
   border-radius: var(--ds-border-radius-xl);
 }
 
-.redcrossnohome39 {
+.redcrossnohome40 {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
