@@ -9,18 +9,20 @@ export default function FigmaComponent() {
   const repeatItems1 = repeatData.repeatItems1;
   const repeatItems2 = repeatData.repeatItems2;
 
-  const [title21Data, setTitle21Data] = useState(null);
+  const [supabaseData, setSupabaseData] = useState(null);
 
   useEffect(() => {
     fetch('https://urenlajedqewasikgnko.supabase.co/rest/v1/news', { method: 'GET', headers: {"apikey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVyZW5sYWplZHFld2FzaWtnbmtvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMyMjM0ODUsImV4cCI6MjA4ODc5OTQ4NX0.JCBGFyTtsIzuCQmsvzStM5Yympcn5_rbIFtNDRSBNeg"} })
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-      .then(data => setTitle21Data(data))
+      .then(data => setSupabaseData(data))
       .catch(() => {});
   }, []);
 
   function showHelloWorld() {
     alert('Hello World!');
   }
+
+  const [title21Data, setTitle21Data] = useState(null);
 
   const [titleData, setTitleData] = useState(null);
 
@@ -34,17 +36,17 @@ export default function FigmaComponent() {
           <Donor amounts={[{"value":220,"label":"220 kr"},{"value":345,"label":"345 kr"},{"value":660,"label":"660 kr"}]} defaultAmount={345} oneTimeLabel="En gang" monthlyLabel="Hver måned" customAmountPlaceholder="Valgfritt beløp" amountLabel="Velg ønsket beløp:" impactMessage="En gave på {amount} bidrar til lorem ipsum dolor sit amet" vippsButtonLabel="Gi med" avtalegiroLabel="Gi med Kort" avtalegiroHref="#" currencySuffix="kr" data-color="primary" showVippsButton showAvtalegiroLink showImpactMessage />
         </div>
         <section data-figma-id="657:22053" data-figma-name="Girl section" className={styles.GirlSection6}>
-          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d8068e23-0948-4f34-9804-4956bd8b641e" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
-          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5e6abeea-6882-4871-a677-35ad6dfd3e69" alt="girl" className={styles.girl4} />
-          <img data-figma-id="646:22327" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4cc857ff-d487-4092-9d6d-e81d374e4d81" alt="Redcross-graphics-1" className={styles.Redcrossgraphics15} />
+          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c35cb459-c270-4dbd-a5d1-22d8fcb340d1" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
+          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/89ca6a43-7cc3-4b64-92aa-08c62c13d3fc" alt="girl" className={styles.girl4} />
+          <img data-figma-id="646:22327" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/53d6ade3-8c23-4b70-be7f-e37b49c4f15d" alt="Redcross-graphics-1" className={styles.Redcrossgraphics15} />
         </section>
       </section>
       <section data-figma-id="316:21652" data-figma-name="Section2: Call to action" className={styles.Section2CallToAction12}>
         <div className={styles.dsWrapper8}>
-          <Heading data-size="xl" level={1} data-figma-id="316:21653" data-figma-name="Heading">{title21Data?.[1]?.headline ?? ''}</Heading>
+          <Heading data-size="xl" level={1} data-figma-id="316:21653" data-figma-name="Heading">{supabaseData?.[1]?.headline ?? ''}</Heading>
         </div>
         <div className={styles.dsWrapper9}>
-          <Paragraph data-size="md" data-figma-id="316:21654" data-figma-name="Body">{title21Data?.[1]?.summary ?? ''}</Paragraph>
+          <Paragraph data-size="md" data-figma-id="316:21654" data-figma-name="Body">{supabaseData?.[1]?.summary ?? ''}</Paragraph>
         </div>
         <div data-figma-id="316:21655" data-figma-name="Buttons" className={styles.Buttons11}>
           <div className={styles.dsWrapper10}>
@@ -95,9 +97,9 @@ export default function FigmaComponent() {
         </div>
         <div data-figma-id="316:21708" data-figma-name="texts" className={styles.texts31}>
           <h4 data-figma-id="316:21710" data-figma-name="Heading" className={styles.Heading28}>Vi avdekker og hindrer nød</h4>
-          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7f34961b-7f75-47d6-b0f3-a62b9b481670" alt="Line" className={styles.Line129} />
+          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/36a1fe91-31f1-41fd-a267-11cb66f90bd4" alt="Line" className={styles.Line129} />
           <h4 data-figma-id="316:21726" data-figma-name="Heading" className={styles.Heading30}>Vi gir rask respons og lindrer når krisen oppstår</h4>
-          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8497a618-92a8-4e17-b981-c5ab10476a7e" alt="Line" className={styles.Line129} />
+          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9024a8fe-1b93-4257-b337-b23426b277dd" alt="Line" className={styles.Line129} />
           <h4 data-figma-id="316:21742" data-figma-name="Heading" className={styles.Heading28}>Vi avdekker og hindrer nød</h4>
         </div>
       </section>
@@ -116,10 +118,10 @@ export default function FigmaComponent() {
               <Button variant="primary" data-color="primary" data-figma-id="316:21762" data-figma-name="Button" onClick={showHelloWorld}>A button</Button>
             </div>
           </div>
-          <img data-figma-id="316:21763" data-figma-name="Image" src={title21Data?.[0]?.image} alt="" className={styles.Image35} />
+          <img data-figma-id="316:21763" data-figma-name="Image" src={supabaseData?.[0]?.image} alt={supabaseData?.[0]?.image} className={styles.Image35} />
         </div>
         <div data-figma-id="316:21764" data-figma-name="Row 2" className={styles.Row238}>
-          <img data-figma-id="316:21765" data-figma-name="Image" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d9e0d091-1a95-443e-b642-aa4cb9cd3ca6" alt="" className={styles.Image37} />
+          <img data-figma-id="316:21765" data-figma-name="Image" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/43e4fba3-b8e7-4571-b279-1091ac728bbe" alt="" className={styles.Image37} />
           <div data-figma-id="316:21766" data-figma-name="Content" className={styles.Content34}>
             <div data-figma-id="316:21767" data-figma-name="Text" className={styles.Text33}>
               <div className={styles.dsWrapper14}>
