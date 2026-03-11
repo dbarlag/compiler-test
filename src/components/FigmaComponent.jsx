@@ -121,7 +121,7 @@ export default function FigmaComponent() {
           <img data-figma-id="316:21763" data-figma-name="Image" src={supabaseData?.[0]?.image} alt={supabaseData?.[0]?.image} className={styles.Image35} />
         </div>
         <div data-figma-id="316:21764" data-figma-name="Row 2" className={styles.Row238}>
-          <img data-figma-id="316:21765" data-figma-name="Image" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/43e4fba3-b8e7-4571-b279-1091ac728bbe" alt="" className={styles.Image37} />
+          <img data-figma-id="316:21765" data-figma-name="Image" src={supabaseData?.[1]?.image} alt="" className={styles.Image37} />
           <div data-figma-id="316:21766" data-figma-name="Content" className={styles.Content34}>
             <div data-figma-id="316:21767" data-figma-name="Text" className={styles.Text33}>
               <div className={styles.dsWrapper14}>
