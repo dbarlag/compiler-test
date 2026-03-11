@@ -34,9 +34,9 @@ export default function FigmaComponent() {
           <Donor amounts={[{"value":220,"label":"220 kr"},{"value":345,"label":"345 kr"},{"value":660,"label":"660 kr"}]} defaultAmount={345} oneTimeLabel="En gang" monthlyLabel="Hver måned" customAmountPlaceholder="Valgfritt beløp" amountLabel="Velg ønsket beløp:" impactMessage="En gave på {amount} bidrar til lorem ipsum dolor sit amet" vippsButtonLabel="Gi med" avtalegiroLabel="Gi med Kort" avtalegiroHref="#" currencySuffix="kr" data-color="primary" showVippsButton showAvtalegiroLink showImpactMessage />
         </div>
         <section data-figma-id="657:22053" data-figma-name="Girl section" className={styles.GirlSection6}>
-          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a0ea9e4e-1367-4ae5-bdb6-425288e2bb24" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
-          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/55e1b600-7fab-48b3-9ca3-70baeefba113" alt="girl" className={styles.girl4} />
-          <img data-figma-id="646:22327" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9cca912a-ee4b-43f5-b47c-6cefd91c3b7d" alt="Redcross-graphics-1" className={styles.Redcrossgraphics15} />
+          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/403f4acc-0107-4de4-94fa-6ac1dc852c55" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
+          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f7c2cf68-4ed8-4722-99c7-a083eeb96e22" alt="girl" className={styles.girl4} />
+          <img data-figma-id="646:22327" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9559726a-ac0a-4ffb-82ae-39b881d6856f" alt="Redcross-graphics-1" className={styles.Redcrossgraphics15} />
         </section>
       </section>
       <section data-figma-id="316:21652" data-figma-name="Section2: Call to action" className={styles.Section2CallToAction10}>
@@ -91,9 +91,9 @@ export default function FigmaComponent() {
         </div>
         <div data-figma-id="316:21708" data-figma-name="texts" className={styles.texts28}>
           <h4 data-figma-id="316:21710" data-figma-name="Heading" className={styles.Heading25}>Vi avdekker og hindrer nød</h4>
-          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1066ba20-cf66-4153-936b-1955b44007e9" alt="Line" className={styles.Line126} />
+          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3f0e7a33-17b8-48ec-a6eb-a02ca0ea5069" alt="Line" className={styles.Line126} />
           <h4 data-figma-id="316:21726" data-figma-name="Heading" className={styles.Heading27}>Vi gir rask respons og lindrer når krisen oppstår</h4>
-          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6fbeb31f-9838-4c8f-9795-58b029cbda01" alt="Line" className={styles.Line126} />
+          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5c882629-2266-4b00-862c-d515cd42788f" alt="Line" className={styles.Line126} />
           <h4 data-figma-id="316:21742" data-figma-name="Heading" className={styles.Heading25}>Vi avdekker og hindrer nød</h4>
         </div>
       </section>
@@ -110,10 +110,10 @@ export default function FigmaComponent() {
             </div>
             <Button variant="primary" data-color="primary" data-figma-id="316:21762" data-figma-name="Button" onClick={showHelloWorld}>A button</Button>
           </div>
-          <img data-figma-id="316:21763" data-figma-name="Image" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c896b883-cf7c-4406-8825-e38fdf25bd37" alt="" className={styles.Image32} />
+          <img data-figma-id="316:21763" data-figma-name="Image" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b1b88f8e-0d83-48fb-982a-ebfd36bdaabc" alt="" className={styles.Image32} />
         </div>
         <div data-figma-id="316:21764" data-figma-name="Row 2" className={styles.Row235}>
-          <img data-figma-id="316:21765" data-figma-name="Image" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6d56cd03-e0a0-4e34-a740-076bc208b06e" alt="" className={styles.Image34} />
+          <img data-figma-id="316:21765" data-figma-name="Image" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a22b658d-d465-4c4f-bf5d-d58ee10d57a6" alt="" className={styles.Image34} />
           <div data-figma-id="316:21766" data-figma-name="Content" className={styles.Content31}>
             <div data-figma-id="316:21767" data-figma-name="Text" className={styles.Text30}>
               <div className={styles.dsWrapper12}>
