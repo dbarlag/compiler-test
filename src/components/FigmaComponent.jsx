@@ -23,11 +23,6 @@ export default function FigmaComponent() {
       .catch(err => { setSupabaseError(err.message); setSupabaseLoading(false); });
   }, []);
 
-  function helloWorld() {
-  console.log('Hello, World!');
-  return 'Hello, World!';
-}
-
   function Navigate_to_page() {
   // TODO: change the path to your target page
 const targetUrl = '/about';
@@ -48,6 +43,11 @@ window.open(url, '_blank', 'noopener');
   console.log('test complete');
 }
 
+  function helloWorld() {
+  console.log('Hello, World!');
+  return 'Hello, World!';
+}
+
   helloWorld();
 
   helloWorld();
@@ -62,8 +62,8 @@ window.open(url, '_blank', 'noopener');
           <Donor amounts={[{"value":220,"label":"220 kr"},{"value":345,"label":"345 kr"},{"value":660,"label":"660 kr"}]} defaultAmount={345} oneTimeLabel="En gang" monthlyLabel="Hver måned" customAmountPlaceholder="Valgfritt beløp" amountLabel="Velg ønsket beløp:" impactMessage="En gave på {amount} bidrar til lorem ipsum dolor sit amet" vippsButtonLabel="Gi med" avtalegiroLabel="Gi med Kort" avtalegiroHref="#" currencySuffix="kr" data-color="primary" showVippsButton showAvtalegiroLink showImpactMessage />
         </div>
         <section data-figma-id="657:22053" data-figma-name="Girl section" className={styles.GirlSection6}>
-          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/351f4af2-6616-42ee-88ec-065f219cc843" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
-          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ac6337d1-ddec-43de-9082-7aaafd12f984" alt="girl" className={styles.girl4} />
+          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/75ceb5ec-2e87-40f0-b690-acb860c540a4" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
+          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7a02943a-b247-4afa-8b17-7cce2bd4bc77" alt="girl" className={styles.girl4} />
           <img data-figma-id="646:22327" data-figma-name="Redcross-graphics-1" src={supabaseData?.[0]?.image} alt="Redcross-graphics-1" className={styles.Redcrossgraphics15} />
         </section>
       </section>
@@ -76,10 +76,26 @@ window.open(url, '_blank', 'noopener');
         </div>
         <div data-figma-id="316:21655" data-figma-name="Buttons" className={styles.Buttons11}>
           <div className={styles.dsWrapper10}>
-            <Button loading={false} showIconRight={false} showIconLeft={false} variant="secondary" data-color="primary" data-figma-id="316:21657" data-figma-name="Button" onClick={helloWorld}>Secondary</Button>
+            <Button
+              loading={false}
+              showIconRight={false}
+              showIconLeft={false}
+              variant="secondary"
+              data-color="primary"
+              data-figma-id="316:21657"
+              data-figma-name="Button"
+              onClick={helloWorld}>Secondary</Button>
           </div>
           <div className={styles.dsWrapper10}>
-            <Button loading={false} showIconRight={false} showIconLeft={false} variant="primary" data-color="primary" data-figma-id="316:21656" data-figma-name="Button" onClick={helloWorld}>Call to action</Button>
+            <Button
+              loading={false}
+              showIconRight={false}
+              showIconLeft={false}
+              variant="primary"
+              data-color="primary"
+              data-figma-id="316:21656"
+              data-figma-name="Button"
+              onClick={helloWorld}>Call to action</Button>
           </div>
         </div>
       </section>
@@ -123,9 +139,9 @@ window.open(url, '_blank', 'noopener');
         </div>
         <div data-figma-id="316:21708" data-figma-name="texts" className={styles.texts31}>
           <h4 data-figma-id="316:21710" data-figma-name="Heading" className={styles.Heading28}>Vi avdekker og hindrer nød</h4>
-          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/11273d4c-1104-42f8-8c91-dbfc1f91ed5a" alt="Line" className={styles.Line129} />
+          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/20792256-e56a-46e0-a193-143461b1aca4" alt="Line" className={styles.Line129} />
           <h4 data-figma-id="316:21726" data-figma-name="Heading" className={styles.Heading30}>Vi gir rask respons og lindrer når krisen oppstår</h4>
-          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9cb9ca11-77fe-4a7d-b95d-c35bbf873f9a" alt="Line" className={styles.Line129} />
+          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/11255e47-4707-45be-a8b2-6bdfe52233e1" alt="Line" className={styles.Line129} />
           <h4 data-figma-id="316:21742" data-figma-name="Heading" className={styles.Heading28}>Vi avdekker og hindrer nød</h4>
         </div>
       </section>
@@ -142,7 +158,15 @@ window.open(url, '_blank', 'noopener');
               </div>
             </div>
             <div className={styles.dsWrapper10}>
-              <Button loading={false} showIconRight={false} showIconLeft={false} variant="primary" data-color="primary" data-figma-id="316:21762" data-figma-name="Button" onClick={helloWorld}>A button</Button>
+              <Button
+                loading={false}
+                showIconRight={false}
+                showIconLeft={false}
+                variant="primary"
+                data-color="primary"
+                data-figma-id="316:21762"
+                data-figma-name="Button"
+                onClick={helloWorld}>A button</Button>
             </div>
           </div>
         </div>
