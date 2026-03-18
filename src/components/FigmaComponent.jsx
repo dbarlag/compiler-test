@@ -52,18 +52,6 @@ window.open(url, '_blank', 'noopener');
 
   helloWorld();
 
-  {
-  // TODO: change the path to your target page
-const targetUrl = '/about';
-window.location.href = targetUrl;
-}
-
-  {
-  // TODO: replace with your external URL
-const url = 'https://example.com';
-window.open(url, '_blank', 'noopener');
-}
-
   return (
     <div data-figma-id="316:21605" data-figma-name="redcross.no/home" className={styles.redcrossnohome40}>
       <div className={styles.wrapper1}>
