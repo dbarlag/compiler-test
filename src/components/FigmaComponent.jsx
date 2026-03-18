@@ -30,17 +30,17 @@ export default function FigmaComponent() {
 
 helloWorld();
 
+  {
   // TODO: change the path to your target page
 const targetUrl = '/about';
 window.location.href = targetUrl;
+}
 
+  {
   // TODO: replace with your external URL
 const url = 'https://example.com';
 window.open(url, '_blank', 'noopener');
-
-  // TODO: change the path to your target page
-const targetUrl = '/about';
-window.location.href = targetUrl;
+}
 
   function testComplete() {
   console.log('hello');
@@ -64,8 +64,8 @@ window.location.href = targetUrl;
           <Donor amounts={[{"value":220,"label":"220 kr"},{"value":345,"label":"345 kr"},{"value":660,"label":"660 kr"}]} defaultAmount={345} oneTimeLabel="En gang" monthlyLabel="Hver måned" customAmountPlaceholder="Valgfritt beløp" amountLabel="Velg ønsket beløp:" impactMessage="En gave på {amount} bidrar til lorem ipsum dolor sit amet" vippsButtonLabel="Gi med" avtalegiroLabel="Gi med Kort" avtalegiroHref="#" currencySuffix="kr" data-color="primary" showVippsButton showAvtalegiroLink showImpactMessage />
         </div>
         <section data-figma-id="657:22053" data-figma-name="Girl section" className={styles.GirlSection6}>
-          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/77f4a170-f60e-4f02-b19f-ebbd9fb5b097" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
-          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/720e243a-dd35-4425-a473-6156eb7a33bc" alt="girl" className={styles.girl4} />
+          <img data-figma-id="646:22322" data-figma-name="Redcross-graphics-1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/324427d3-5fb6-450d-8120-982b55fb0277" alt="Redcross-graphics-1" className={styles.Redcrossgraphics13} />
+          <img data-figma-id="647:22901" data-figma-name="girl" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e3b76f2f-4577-4895-ba17-d0ec55aebc12" alt="girl" className={styles.girl4} />
           <img data-figma-id="646:22327" data-figma-name="Redcross-graphics-1" src={supabaseData?.[0]?.image} alt="Redcross-graphics-1" className={styles.Redcrossgraphics15} />
         </section>
       </section>
@@ -125,9 +125,9 @@ window.location.href = targetUrl;
         </div>
         <div data-figma-id="316:21708" data-figma-name="texts" className={styles.texts31}>
           <h4 data-figma-id="316:21710" data-figma-name="Heading" className={styles.Heading28}>Vi avdekker og hindrer nød</h4>
-          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ba7f5fd9-6137-4326-85ba-f85c0c122381" alt="Line" className={styles.Line129} />
+          <img data-figma-id="316:21724" data-figma-name="Line 1" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/efb03a97-9194-4707-90e6-42e64d01a21d" alt="Line" className={styles.Line129} />
           <h4 data-figma-id="316:21726" data-figma-name="Heading" className={styles.Heading30}>Vi gir rask respons og lindrer når krisen oppstår</h4>
-          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9296b89d-21dc-45f0-9dc1-4db65fb9a67f" alt="Line" className={styles.Line129} />
+          <img data-figma-id="316:21740" data-figma-name="Line 2" src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4c333caa-dc4c-48b1-b357-d95e5b7f5a38" alt="Line" className={styles.Line129} />
           <h4 data-figma-id="316:21742" data-figma-name="Heading" className={styles.Heading28}>Vi avdekker og hindrer nød</h4>
         </div>
       </section>
