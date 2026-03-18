@@ -76,7 +76,7 @@
   padding-right: var(--ds-size-10);
   padding-top: var(--ds-size-15);
   overflow: hidden;
-  background-image: url("https://s3-alpha-sig.figma.com/img/a26e/b3b0/b66b32ee0293cca8d5d7bf926060588d?Expires=1774224000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rP4PKkfUd4XP43hKuK-9w01waMfGBbwlTgF93cHJclwCgViD3h7wVe0DXdrWua5Zeizcc6R1fV4YKWC-r4MOcbvPHSWP7qCnapXw7RxMt7oM3c63fj6pAA50iqP9yhodzsGqCOlY6YUC3sTmjI-Izg85dIs0QKt8dEKzQ1ikNcVSyCq6I1eKdsQdREYeyGr~vFej61pZXl-WkhLwV~QAs6ZFT4deeHZQuTLfqNyNd~5-Z8kzASdg1DFQKcgPg-NfXLRFL41uDSsk8xsVBIVZRCi2jamnqCL3p9xNXt-jVtpKvxSAtyPaGkuA9ggF8s6JTxaG9plV9QsQkmV1okPbpw__");
+  background-image: url("https://s3-alpha-sig.figma.com/img/a26e/b3b0/b66b32ee0293cca8d5d7bf926060588d?Expires=1774828800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KbpB~m7Ms0HYvIEs1onogrsSL67DElmwTeyGa7yn4SJtbRkwSJIl4lU~MGWx5wPzIJwDyrfRos7ym5cN0dh3jzbhRl~DVa1KvxW-w-timxf19v4wb28PtcXVGiv24BAJtB-PEOAfUUXmCFaysy7Mp02r1rZPMnaPOSXn2zQ3TjlyiH-tReYC-wiZabfhTUPgCy-8geY4IUx4yCscUFO-x~QnKJ1E86N-8q0~bj3SmMyWuCTbj3Sbydd8AsrjMc8KDP3z5d1PccEzlT45V2xhkc8lepKWOJfaW-c-7HeqNBIqFMU59~Vj1-gRahn-O-46W3axYY7Pk4vdfG9wO2R54A__");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -128,34 +128,18 @@
   background-color: var(--ds-color-info-surface-tinted);
 }
 
-.Image13 {
-  width: 628px;
-  max-width: 100%;
-  height: 504px;
-  min-width: 350px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: var(--ds-border-radius-xl);
-  overflow: hidden;
-  object-fit: cover;
-  aspect-ratio: 1.2460;
-  flex-shrink: 1;
-}
-
-.dsWrapper14 {
+.dsWrapper13 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
-.dsWrapper15 {
+.dsWrapper14 {
   width: 100%;
   text-align: left;
 }
 
-.AspectRatioSpacer16 {
+.AspectRatioSpacer15 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -170,7 +154,7 @@
   overflow: hidden;
 }
 
-.dsWrapper17 {
+.dsWrapper16 {
   width: 100%;
   height: 100%;
   flex-grow: 1;
@@ -179,12 +163,12 @@
   text-align: center;
 }
 
-.dsWrapper18 {
+.dsWrapper17 {
   width: 100%;
   text-align: center;
 }
 
-.dsStyle19 {
+.dsStyle18 {
   border: none;
   box-shadow: none;
   outline: none;
@@ -202,13 +186,13 @@
   border-radius: 8px;
 }
 
-.dsWrapper20 {
+.dsWrapper19 {
   width: 365px;
   max-width: 100%;
   min-width: 300px;
 }
 
-.FeatureCards121 {
+.FeatureCards120 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -221,13 +205,13 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.dsWrapper22 {
+.dsWrapper21 {
   width: 100%;
   display: flex;
   justify-content: flex-start;
 }
 
-.Section3Sttte23 {
+.Section3Sttte22 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -242,7 +226,7 @@
   background-color: var(--ds-color-neutral-background-default);
 }
 
-.SackKroner24 {
+.SackKroner23 {
   width: 72px;
   max-width: 100%;
   height: 72px;
@@ -254,7 +238,7 @@
   overflow: hidden;
 }
 
-.Heading25 {
+.Heading24 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -268,7 +252,7 @@
   margin: 0px;
 }
 
-.Heading26 {
+.Heading25 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -282,7 +266,7 @@
   margin: 0px;
 }
 
-.x27 {
+.x26 {
   width: auto;
   height: auto;
   display: flex;
@@ -292,7 +276,7 @@
   align-items: center;
 }
 
-.StatsIconNumber28 {
+.StatsIconNumber27 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -304,7 +288,7 @@
   flex-wrap: wrap;
 }
 
-.Heading29 {
+.Heading28 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -318,7 +302,7 @@
   margin: 0px;
 }
 
-.Line130 {
+.Line129 {
   width: 0px;
   max-width: 100%;
   height: 84px;
@@ -329,7 +313,7 @@
   overflow: hidden;
 }
 
-.Heading31 {
+.Heading30 {
   white-space: pre-line;
   overflow-wrap: break-word;
   width: auto;
@@ -344,7 +328,7 @@
   margin: 0px;
 }
 
-.texts32 {
+.texts31 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -357,7 +341,7 @@
   flex-wrap: wrap;
 }
 
-.Section4Stats33 {
+.Section4Stats32 {
   width: 100%;
   height: auto;
   align-self: stretch;
@@ -372,6 +356,22 @@
   padding-top: var(--ds-size-22);
   padding-bottom: var(--ds-size-22);
   background-color: var(--ds-color-neutral-background-tinted);
+}
+
+.Image33 {
+  width: 628px;
+  max-width: 100%;
+  height: 504px;
+  min-width: 350px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--ds-border-radius-xl);
+  overflow: hidden;
+  object-fit: cover;
+  aspect-ratio: 1.2460;
+  flex-shrink: 1;
 }
 
 .Text34 {
