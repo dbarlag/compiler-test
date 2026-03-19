@@ -1,26 +1,6 @@
 'use client';
 
-// WARNING: The following Figma elements were removed but had custom code attached:
-//   data-figma-id="316:21653"
-//   data-figma-id="316:21654"
-//   data-figma-id="316:21657"
-//   data-figma-id="316:21656"
-//   data-figma-id="316:21659"
-//   data-figma-id="316:21663"
-//   data-figma-id="316:21665"
-//   data-figma-id="I316:21665;24532:5015;25374:5944;25374:5907"
-//   data-figma-id="I316:21665;24532:5015;24384:25357;25374:9703"
-//   data-figma-id="316:21668"
-//   data-figma-id="316:21760"
-//   data-figma-id="316:21761"
-//   data-figma-id="316:21762"
-//   data-figma-id="316:21768"
-//   data-figma-id="316:21769"
-//   data-figma-id="316:21770"
-// Review and clean up any orphaned handlers.
-
 import { Footer, Header, Heading, Paragraph } from 'rk-designsystem';
-import styles from './NyerodekorsnoPage.module.css';
 
 export default function FigmaComponent() {
   function Navigate_to_page() {
@@ -59,26 +39,26 @@ window.open(url, '_blank', 'noopener');
   }, []);
 
   return (
-    <div data-figma-id="577:21655" data-figma-name="Desktop - 2" className={styles.Desktop27}>
+    <div data-figma-id="577:21655" data-figma-name="Desktop - 2" className="desktop-2" style={{ width: "100%", maxWidth: "1506px", margin: "0 auto", height: "auto", display: "flex", flexDirection: "column", gap: "10px", alignItems: "center", backgroundColor: "var(--ds-color-neutral-background-default)", overflow: "hidden" }}>
       <style dangerouslySetInnerHTML={{ __html: `@keyframes figmaAnim_0 { from { transform: translateX(-40px) } to { transform: translateX(0) } }
 [data-figma-id="316:21653"] { animation: figmaAnim_0 500ms ease-out 0ms 1 normal both; }` }} />
-      <div className={styles.wrapper1}>
+      <div className="wrapper" style={{ width: "1506px", maxWidth: "100%" }}>
         <Header data-color="primary" extensionColor="tinted" showHeaderExtension showThemeToggle showModeToggle showLanguageSwitch showMenuButton showSearch={false} showLogin={false} showUser={false} showCta={false} showNavItems />
       </div>
-      <div data-figma-id="577:21777" data-figma-name="Frame 3" className={styles.Frame33}>
-        <div className={styles.dsWrapper2}>
+      <div data-figma-id="577:21777" data-figma-name="Frame 3" className="frame-3" style={{ width: "100%", height: "auto", alignSelf: "stretch", display: "flex", flexDirection: "column", gap: "10px", alignItems: "center" }}>
+        <div className="dswrapper" style={{ width: "474px", maxWidth: "100%", height: "78px", textAlign: "center" }}>
           <Heading data-size="2xl" level={1} data-figma-id="577:21773" data-figma-name="Heading">About us</Heading>
         </div>
       </div>
-      <div data-figma-id="577:21778" data-figma-name="Frame 3" className={styles.Frame35}>
-        <div className={styles.dsWrapper4}>
+      <div data-figma-id="577:21778" data-figma-name="Frame 3" className="frame-3" style={{ width: "100%", height: "695px", alignSelf: "stretch", display: "flex", flexDirection: "row", gap: "var(--ds-size-13)", justifyContent: "center", alignItems: "center" }}>
+        <div className="dswrapper" style={{ width: "231px", maxWidth: "100%", textAlign: "left" }}>
           <Paragraph data-size="md" variant={false} data-figma-id="577:21775" data-figma-name="Body">The quick brown fox jumps over the lazy dog</Paragraph>
         </div>
-        <div className={styles.dsWrapper4}>
+        <div className="dswrapper" style={{ width: "231px", maxWidth: "100%", textAlign: "left" }}>
           <Paragraph data-size="md" variant={false} data-figma-id="577:21779" data-figma-name="Body">The quick brown fox jumps over the lazy dog</Paragraph>
         </div>
       </div>
-      <div className={styles.wrapper6}>
+      <div className="wrapper" style={{ width: "100%", alignSelf: "stretch" }}>
         <Footer variant="default" hideNewsletter data-color="neutral" showCrossCorners={false} shortcutsLinks={[{"label":"Tilbudene","href":"#"},{"label":"Bli frivillig","href":"#"},{"label":"Vårt arbeid","href":"#"},{"label":"Om Røde Kors","href":"#"},{"label":"Støtt arbeidet","href":"#"},{"label":"Kontakt oss","href":"#"}]} legalLinks={[{"label":"Personvern","href":"#"},{"label":"For presse","href":"#"},{"label":"Regler for innkjøp","href":"#"},{"label":"Varsling/Misconduct","href":"#"}]} linksLinks={[{"label":"Tilbudene","href":"#"},{"label":"Bli frivillig","href":"#"},{"label":"Vårt arbeid","href":"#"},{"label":"Om Røde Kors","href":"#"},{"label":"Støtt arbeidet","href":"#"},{"label":"Kontakt oss","href":"#"}]} visitingAddress={["Snarveier"]} organizationNumber="XXX XXX XXX" email="post@redcross.no" whiteSectionSlot="SLOT" showPrimaryLogo />
       </div>
     </div>
