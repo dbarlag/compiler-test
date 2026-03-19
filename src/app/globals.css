@@ -3,3 +3,5 @@
 @import url('@digdir/designsystemet-css/index.css');
 
 * { box-sizing: border-box; }
+
+body { margin: 0; padding: 0; }

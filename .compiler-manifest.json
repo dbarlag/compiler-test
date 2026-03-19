@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T13:46:06.978Z",
+  "generatedAt": "2026-03-19T13:59:39.130Z",
   "compiler": "figma-mcp-compiler",
   "files": [
     ".compiler-manifest.json",
@@ -19,7 +19,6 @@
     "src/app/page.jsx",
     "src/components/NavBar.jsx",
     "src/components/NyerodekorsnoPage.data.json",
-    "src/components/NyerodekorsnoPage.jsx",
-    "src/components/NyerodekorsnoPage.module.css"
+    "src/components/NyerodekorsnoPage.jsx"
   ]
 }
