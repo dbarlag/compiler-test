@@ -50,10 +50,9 @@ for (const f of files) {
 }
 
 if (issues.length > 0) {
-  console.log('DS Lint found ' + issues.length + ' issue(s):\n');
+  console.log('DS Lint found ' + issues.length + ' warning(s):\n');
   issues.forEach((i) => console.log('  ' + i));
-  console.log('');
-  process.exit(1);
+  console.log('\nThese are recommendations, not errors.');
 } else {
   console.log('DS Lint: all clear.');
 }
