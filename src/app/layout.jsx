@@ -3,7 +3,6 @@ import 'rk-design-tokens/design-tokens-build/theme.css';
 import 'rk-designsystem/dist/rk-designsystem.css';
 import { Source_Sans_3 } from 'next/font/google';
 import './globals.css';
-import NavBar from '../components/NavBar';
 
 const sourceSans3 = Source_Sans_3({
   subsets: ['latin'],
@@ -19,9 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="no">
-      <body className={sourceSans3.className}>
-        <NavBar />
-        {children}</body>
+      <body className={sourceSans3.className}>{children}</body>
     </html>
   );
 }

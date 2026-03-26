@@ -11,7 +11,6 @@ npm run dev
 
 ## Pages
 - **redcross.no/home** → `/`
-- **Desktop - 2** → `/page-2`
 
 ## Deploy to Vercel
 

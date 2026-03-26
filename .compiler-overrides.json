@@ -7,13 +7,6 @@
         "imports": "",
         "hooks": ""
       }
-    },
-    "Desktop2Page": {
-      "nodeOverrides": {},
-      "componentCode": {
-        "imports": "",
-        "hooks": ""
-      }
     }
   }
 }
