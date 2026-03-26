@@ -1,5 +1,5 @@
-import redcrossnohomePage from '../components/redcrossnohomePage';
+import RedcrossnohomePage from '../components/RedcrossnohomePage';
 
 export default function Page() {
-  return <redcrossnohomePage />;
+  return <RedcrossnohomePage />;
 }
