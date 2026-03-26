@@ -1,5 +1,5 @@
-import FigmaComponent from '../components/FigmaComponent';
+import redcrossnohomePage from '../components/redcrossnohomePage';
 
 export default function Page() {
-  return <FigmaComponent />;
+  return <redcrossnohomePage />;
 }

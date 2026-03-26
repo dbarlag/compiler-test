@@ -10,8 +10,8 @@ npm run dev
 ```
 
 ## Pages
-- **Nye rodekors.no** → `/`
-- **Nye rodekors.no** → `/page-2`
+- **redcross.no/home** → `/`
+- **Desktop - 2** → `/page-2`
 
 ## Deploy to Vercel
 

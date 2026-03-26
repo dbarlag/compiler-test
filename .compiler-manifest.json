@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T11:59:46.764Z",
+  "generatedAt": "2026-03-26T12:03:58.877Z",
   "compiler": "figma-mcp-compiler",
   "files": [
     ".compiler-manifest.json",
@@ -15,8 +15,11 @@
     "package.json",
     "src/app/globals.css",
     "src/app/layout.jsx",
+    "src/app/page-2/page.jsx",
     "src/app/page.jsx",
-    "src/components/FigmaComponent.data.json",
-    "src/components/FigmaComponent.jsx"
+    "src/components/Desktop2Page.jsx",
+    "src/components/NavBar.jsx",
+    "src/components/redcrossnohomePage.data.json",
+    "src/components/redcrossnohomePage.jsx"
   ]
 }

@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const NAV_ITEMS = [
-  { href: '/', label: "Nye rodekors.no" },
-  { href: '/page-2', label: "Nye rodekors.no" },
+  { href: '/', label: "redcross.no/home" },
+  { href: '/page-2', label: "Desktop - 2" },
 ];
 
 export default function NavBar() {

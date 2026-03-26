@@ -1,5 +1,5 @@
-import NyerodekorsnoPage2 from '../../components/NyerodekorsnoPage2';
+import Desktop2Page from '../../components/Desktop2Page';
 
 export default function Page() {
-  return <NyerodekorsnoPage2 />;
+  return <Desktop2Page />;
 }
