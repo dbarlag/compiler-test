@@ -1,14 +1,7 @@
 {
   "_comment": "Add event handlers and custom code that survive design re-pushes. See data-figma-id attributes in generated JSX for node IDs.",
   "components": {
-    "NyerodekorsnoPage": {
-      "nodeOverrides": {},
-      "componentCode": {
-        "imports": "",
-        "hooks": ""
-      }
-    },
-    "NyerodekorsnoPage2": {
+    "FigmaComponent": {
       "nodeOverrides": {},
       "componentCode": {
         "imports": "",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T14:06:05.004Z",
+  "generatedAt": "2026-03-26T11:49:01.607Z",
   "compiler": "figma-mcp-compiler",
   "files": [
     ".compiler-manifest.json",
@@ -15,13 +15,9 @@
     "package.json",
     "src/app/globals.css",
     "src/app/layout.jsx",
-    "src/app/page-2/page.jsx",
     "src/app/page.jsx",
-    "src/components/NavBar.jsx",
-    "src/components/NyerodekorsnoPage.data.json",
-    "src/components/NyerodekorsnoPage.jsx",
-    "src/components/NyerodekorsnoPage.module.css",
-    "src/components/NyerodekorsnoPage2.jsx",
-    "src/components/NyerodekorsnoPage2.module.css"
+    "src/components/FigmaComponent.data.json",
+    "src/components/FigmaComponent.jsx",
+    "src/components/FigmaComponent.module.css"
   ]
 }

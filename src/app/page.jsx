@@ -1,5 +1,5 @@
-import NyerodekorsnoPage from '../components/NyerodekorsnoPage';
+import FigmaComponent from '../components/FigmaComponent';
 
 export default function Page() {
-  return <NyerodekorsnoPage />;
+  return <FigmaComponent />;
 }
