@@ -22,7 +22,7 @@ export default function FigmaComponent() {
       </div>
       <div data-figma-id="577:21778" data-figma-name="Frame 3" className="frame-3" style={{ width: "100%", height: "695px", alignSelf: "stretch", display: "flex", flexDirection: "row", gap: "var(--ds-size-13)", justifyContent: "center", alignItems: "center" }}>
         <div className="dswrapper" style={{ width: "231px", maxWidth: "100%", textAlign: "left" }}>
-          <Paragraph data-size="md" variant={false} data-figma-id="577:21775" data-figma-name="Body">The quick brown fox jumps over the lazy dog</Paragraph>
+          <Paragraph data-size="md" variant={false} data-figma-id="577:21775" data-figma-name="Body" onClick={helloWorld}>The quick brown fox jumps over the lazy dog</Paragraph>
         </div>
         <div className="dswrapper" style={{ width: "231px", maxWidth: "100%", textAlign: "left" }}>
           <Paragraph data-size="md" variant={false} data-figma-id="577:21779" data-figma-name="Body">The quick brown fox jumps over the lazy dog</Paragraph>
